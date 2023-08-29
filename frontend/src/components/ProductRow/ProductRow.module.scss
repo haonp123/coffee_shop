@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    margin-top: 32px;
+}
+
+.col-4-element {
+    &+.col-4-element {
+        margin-left: 20px;
+    }
+}
+
+.col-5-element {
+    &+.col-5-element {
+        margin-left: 50px;
+    }
+}

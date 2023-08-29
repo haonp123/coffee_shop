@@ -1,0 +1,19 @@
+{
+    "data": [{
+            "id": "2013055",
+            "firstName": "Hào",
+            "lastName": "Phan",
+            "email": "haonp123@gmail.com",
+            "password": "haonp123",
+            "phone": "0123456789"
+        },
+        {
+            "id": "231359165",
+            "firstName": "Sơn",
+            "lastName": "Hoàng",
+            "email": "hao.phannopro032@hcmut.edu.vn",
+            "password": "hao032",
+            "phone": "0123456788"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+.wrapper {
+    margin-top: 64px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    width: var(--inner-width);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.col {
+    img {
+        width: 200px;
+    }
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.license {
+    height: 46px;
+    font-style: italic;
+    background-color: #F5F5F5;
+    width: 100%;
+    text-align: center;
+    line-height: 46px;
+    ;
+    b {
+        margin-left: 5px;
+        font-style: normal;
+    }
+}

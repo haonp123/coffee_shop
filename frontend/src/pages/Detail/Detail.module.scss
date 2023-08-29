@@ -1,0 +1,245 @@
+.wrapper {
+    margin-top: 164px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    width: var(--inner-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s all ease-in-out;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.product-info {
+    width: 720px;
+}
+
+.name {
+    text-align: justify;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.price-container {
+    padding: 15px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.current-price {
+    color: red;
+}
+
+.sale-info {
+    display: flex;
+    color: #ccc;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.sale-price {
+    display: flex;
+}
+
+.line-price {
+    margin-left: 8px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.count-action {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.change {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #d9d9d9;
+    user-select: none;
+    &:hover {
+        cursor: pointer;
+        background-color: #ccc;
+    }
+}
+
+.count {
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #d9d9d9;
+}
+
+.more-action {
+    display: flex;
+}
+
+.detail-header {
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+.detail-content {}
+
+.title {
+    font-size: 1.8rem;
+    margin-top: 5px;
+}
+
+//Rate modal:
+.rate-container {
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(95, 93, 93, 0.5);
+}
+
+.rate-modal {
+    position: relative;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.closeRate-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+    &:hover {
+        transform: rotate(360deg);
+    }
+}
+
+.rate-heading {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rate-productName {
+    text-align: center;
+    font-size: 2.4rem;
+    width: 600px;
+    margin: 10px 0;
+}
+
+.login {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #905131;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #905131;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #905131;
+    }
+}
+
+.rate-action {
+    display: flex;
+}
+
+.star-list {
+    margin-left: 15px;
+}
+
+.star-icon {
+    cursor: pointer;
+    &+.star-icon {
+        margin-left: 5px;
+    }
+}
+
+.rate-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    input {
+        outline: none;
+        color: #999;
+        border: 1px solid #c4cdd5;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        padding: 10px 15px;
+        &+input {
+            margin-top: 15px;
+        }
+    }
+}
+
+.rate-content {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid #c4cdd5;
+    padding: 10px 15px;
+    resize: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #999;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+}
+
+.send-btn {
+    padding: 10px 15px;
+    color: #905131;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #905131;
+    &:hover {
+        opacity: 0.9;
+        color: #fff;
+        background-color: #905131;
+    }
+    margin: 0 32px;
+}

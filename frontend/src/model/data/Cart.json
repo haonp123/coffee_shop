@@ -1,0 +1,37 @@
+{
+    "data": [{
+            "id": "Cart_01",
+            "user_id": "2013055",
+            "product_list": [{
+                    "product_id": "SP-001",
+                    "quantity": 3
+                },
+                {
+                    "product_id": "SP-003",
+                    "quantity": 2
+                },
+                {
+                    "product_id": "SP-002",
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "id": "Cart_02",
+            "user_id": "231359165",
+            "product_list": [{
+                    "product_id": "SP-001",
+                    "quantity": 2
+                },
+                {
+                    "product_id": "SP-003",
+                    "quantity": 2
+                },
+                {
+                    "product_id": "SP-002",
+                    "quantity": 3
+                }
+            ]
+        }
+    ]
+}

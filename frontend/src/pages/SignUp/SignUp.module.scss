@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--header-height);
+}
+
+.log-container {
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    border: 3px solid #905131;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.log-close {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    fill: #000;
+    &:hover {
+        fill: #905131;
+        cursor: pointer;
+    }
+}
+
+.image-log {
+    width: 50%;
+    object-fit: cover;
+}
+
+.log-content {
+    width: 50%;
+}
+
+.log-heading {
+    display: flex;
+}
+
+.log-name {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-bottom: 1px solid #905131;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+.log-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.input-item {
+    margin-top: 10px;
+}
+
+.log-label {
+    font-size: 1.5rem;
+    display: flex;
+    p {
+        color: red;
+    }
+}
+
+.log-input {
+    margin-top: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    fill: #939191;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        flex: 1;
+        height: 100%;
+        padding: 0 10px;
+        &:-internal-autofill-selected {
+            color: #fff;
+            background-color: #fff !important;
+        }
+    }
+    .eye-icon {
+        margin: 0 10px;
+        &:hover {
+            cursor: pointer;
+            fill: #000;
+        }
+    }
+}
+
+.errPass {
+    border: 1px solid #e7195a;
+}
+
+.error {
+    margin-top: 15px;
+    color: #e7195a;
+    padding: 10px 15px;
+    border: 1px solid #e7195a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 15px;
+    background-color: #ffefef;
+}
+
+.log-btn {
+    border: none;
+    background: none;
+    margin-top: 20px;
+}

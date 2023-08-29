@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "id": "1234",
+            "user_id": "2013055",
+            "list": [
+                {
+                    "id": "sfdfsfs",
+                    "title": "Chương trình khuyến mãi tháng 9 đầy hấp dẫn",
+                    "content": "abcxyz...",
+                    "read": true
+                },
+                {
+                    "id": "sfdfsfs124",
+                    "title": "DEAL mùa hè đầy hấp dẫn",
+                    "content": "abcxyz...",
+                    "read": false
+                },
+                {
+                    "id": "sfdfsfs243",
+                    "title": "Chương trình khuyến mãi tháng 8 đầy hấp dẫn 1",
+                    "content": "abcxyz...",
+                    "read": false
+                },
+                {
+                    "id": "sfdfsfs124234",
+                    "title": "DEAL mùa hè đầy hấp dẫn 2",
+                    "content": "abcxyz...",
+                    "read": true
+                },
+                {
+                    "id": "sfdfsfs12",
+                    "title": "Chương trình khuyến mãi tháng 8 đầy hấp dẫn 3 ",
+                    "content": "abcxyz...",
+                    "read": true
+                },
+                {
+                    "id": "sfdfsfs12412",
+                    "title": "DEAL mùa hè đầy hấp dẫn 4",
+                    "content": "abcxyz...",
+                    "read": true
+                }
+            ]
+        },
+        {
+            "id": "12345",
+            "user_id": "231359165",
+            "list": []
+        }
+    ]
+}

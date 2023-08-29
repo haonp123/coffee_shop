@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 2500
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Derson Ussuale",
+      "password": "test"
+    },
+    {
+      "id": "2013055",
+      "name": "haonp123",
+      "password": "nopro"
+    }
+  ]
+}

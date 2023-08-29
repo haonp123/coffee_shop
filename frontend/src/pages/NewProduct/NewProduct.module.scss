@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--header-height);
+}
+
+.inner {
+    margin-top: 15px;
+    width: var(--inner-width);
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.input-title {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.input-field {
+    padding: 10px 5px;
+}
